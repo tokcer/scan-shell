@@ -1,0 +1,7 @@
+Membaca Hasil Temuan
+Sambil menunggu skrip berjalan, ini cara membaca hasilnya nanti:
+
+1. Info [Blue]: Ini hanya informasi biasa (misal: versi server).
+2. Low [Green]: Celah ringan, biasanya cuma bocoran info versi software.
+3. Medium/High [Orange]: Mulai serius. Ini bisa berupa panel login yang terbuka atau konfigurasi yang salah.
+4. Critical [Red]: Inilah "pintu shell" kamu. Jika muncul tulisan merah dengan keterangan seperti Remote Code Execution (RCE) atau Command Injection, berarti kamu bisa menanamkan akses shell di sana.
